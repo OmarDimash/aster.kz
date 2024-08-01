@@ -1,0 +1,414 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: white;
+    border-bottom: 2px solid #0066cc;
+}
+
+.logo {
+    height: 20px;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    margin: 0 10px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bottom-header {
+    background-color: #0066cc;
+    padding: 20px 100px;
+}
+
+.submenu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu ul li {
+    margin: 0 10px;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero {
+    background: radial-gradient(118.8% 675.59% at 50% 54.25%, #CD3434 0%, #360002 100%);
+    height: 100vh;
+    /* Полная высота экрана */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-start {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.styled-element {
+    width: 414.42px;
+    /* Hug */
+    height: 72px;
+    /* Hug */
+    padding: 8px 20px;
+    /* Отступы сверху/снизу и слева/справа */
+    border-radius: 40px 40px 40px 40px;
+    /* Радиус границ */
+    opacity: 1;
+    /* Устанавливаем видимость */
+    background-color: #f0ecec;
+    /* Цвет фона (измените по необходимости) */
+    display: flex;
+    /* Устанавливаем флекс-контейнер */
+    align-items: center;
+    /* Выравнивание по центру по вертикали */
+    justify-content: center;
+    /* Выравнивание по центру по горизонтали */
+    transform: rotate(0deg);
+    /* Установка угла поворота */
+    font-size: 40px;
+    /* Размер шрифта */
+    color: #CD3434;
+    /* Цвет текста */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    font-weight: bold;
+    /* Жирный шрифт */
+}
+
+.styled-element {
+    width: 350px;
+    /* Ширина элемента */
+    height: 60px;
+    /* Высота элемента */
+    padding: 6px 20px;
+    /* Отступы */
+    border-radius: 40px 40px 40px 40px;
+    /* Радиус границ */
+    opacity: 1;
+    /* Прозрачность элемента */
+    display: flex;
+    /* Используем Flexbox для размещения элементов */
+    flex-direction: column;
+    /* Размещаем элементы по вертикали */
+    align-items: center;
+    /* Центрируем элементы по горизонтали */
+    justify-content: space-between;
+    /* Размещаем элементы с равным промежутком */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    position: relative;
+    /* Относительное позиционирование */
+    background-color: #f0f0f0;
+    /* Цвет фона */
+    margin: 100px;
+}
+
+.highlight {
+    font-size: 40px;
+    /* Увеличенный размер шрифта */
+    color: #f0f0f0;
+    /* Цвет текста */
+    font-weight: bold;
+    /* Жирный шрифт */
+    margin-top: 0px;
+    /* Отступ сверху */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    color: #f0f0f0
+}
+
+.one {
+    font-size: 30px;
+    /* Увеличенный размер шрифта */
+    color: #f0f0f0;
+    /* Цвет текста */
+    font-weight: bold;
+    /* Жирный шрифт */
+    margin-top: 0px;
+    /* Отступ сверху */
+    text-align: left;
+    /* Выравнивание текста по центру */
+    color: #f0f0f0
+}
+
+.twe {
+    font-size: 30px;
+    /* Увеличенный размер шрифта */
+    color: #f0f0f0;
+    /* Цвет текста */
+    font-weight: bold;
+    /* Жирный шрифт */
+    margin-top: 0px;
+    /* Отступ сверху */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    color: #f0f0f0
+}
+
+.five {
+    font-size: 30px;
+    /* Увеличенный размер шрифта */
+    color: #f0f0f0;
+    /* Цвет текста */
+    font-weight: bold;
+    /* Жирный шрифт */
+    margin-top: 0px;
+    /* Отступ сверху */
+    text-align: right;
+    /* Выравнивание текста по центру */
+    color: #f0f0f0
+}
+
+.styled-element img {
+    position: absolute;
+    /* Абсолютное позиционирование для размещения в нижнем левом углу */
+    bottom: 0;
+    /* Прижимаем к низу */
+    left: 0;
+    /* Прижимаем к левому краю */
+    width: 1171px;
+    /* Ширина изображения */
+    height: 304.21px;
+    /* Высота изображения */
+    opacity: 1;
+    /* Прозрачность изображения */
+}
+
+.section-heading {
+    font-size: 28px;
+    /* Размер шрифта заголовка секции */
+    color: #1E3858;
+    /* Цвет текста заголовка секции */
+    margin-bottom: 20px;
+    /* Отступ снизу для заголовка */
+    text-align: center;
+    /* Выравнивание текста по центру */
+}
+
+.section-content {
+    width: 1000px;
+    height: 500px;
+    font-size: 16px;
+    /* Размер шрифта текста секции */
+    color: #1E3858;
+    /* Цвет текста секции */
+    text-align: left;
+    /* Выравнивание текста по центру */
+    margin: 0 auto;
+    /* Автоматические отступы по краям для центрирования */
+    max-width: 800px;
+}
+
+.box {
+    background-color: #f2f7ff;
+    width: 900px;
+    height: 250px;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    margin: 0 auto;
+    border-width: 300;
+    border-left: #0066cc;
+    /* Радиус границ */
+    opacity: 1;
+    /* Прозрачность элемента */
+    display: flex;
+    /* Используем Flexbox для размещения элементов */
+    flex-direction: column;
+    /* Размещаем элементы по вертикали */
+    align-items: center;
+    /* Центрируем элементы по горизонтали */
+    justify-content: space-between;
+    /* Размещаем элементы с равным промежутком */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    position: relative;
+}
+
+.interactive-fields {
+    display: flex;
+    margin: 0;
+    width: 100px;
+    height: auto;
+    /* Используем Flexbox для размещения полей */
+    flex-direction: column;
+    /* Размещаем поля по вертикали */
+    align-items: center;
+    /* Центрируем поля по горизонтали */
+    gap: 20px;
+    /* Расстояние между полями */
+}
+
+.field {
+    font-size: 16px;
+    /* Размер шрифта текста поля */
+    color: #1E3858;
+    /* Цвет текста поля */
+    background-color: #f6f6f6;
+    /* Цвет фона поля */
+    border: 1px solid #f2f7ff;
+    /* Граница поля */
+    border-radius: 5px;
+    /* Радиус границ поля */
+    padding: 10px 20px;
+    /* Отступы внутри поля */
+    width: 500px;
+    height: 50px;
+    /* Заполняет всю ширину родителя */
+    max-width: 800px;
+    /* Максимальная ширина поля */
+    box-sizing: border-box;
+    /* Учет отступов и границ в общей ширине и высоте */
+    display: flex;
+    /* Используем Flexbox для размещения содержимого */
+    justify-content: space-between;
+    /* Размещаем содержимое с равным промежутком */
+    align-items: center;
+    margin-top: 20;
+    /* Центрируем содержимое по вертикали */
+}
+
+.plus-sign {
+    font-weight: bold;
+    /* Жирный шрифт для плюса */
+    font-size: 20px;
+    /* Размер шрифта для плюса */
+    color: #1E3858
+    /* Цвет плюса */
+}
+
+.footer {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-contact {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
